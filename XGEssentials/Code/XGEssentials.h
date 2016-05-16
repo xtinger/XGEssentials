@@ -12,3 +12,4 @@
 #import "NSObject+XGPropertyHash.h"
 #import "UIView+NibLoading.h"
 #import "NSString+XGMD5.h"
+#import "NSObject+XGDispatchOnceOnMainThread.h"
