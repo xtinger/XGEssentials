@@ -8,10 +8,11 @@
 
 #import "NSArray+XGUtils.h"
 #import "NSObject+XGCasting.h"
+#import "NSObject+XGPropertyHash.h"
+@import ObjectiveC;
 
 
-@implementation NSArray (XGUtils)
-
+@implementation NSArray (Utils)
 
 + (NSArray *) newArrayWithArray :(NSArray *)array :(NSInteger) from :(NSInteger) to {
     NSMutableArray *resultM = [[NSMutableArray alloc] init];
@@ -143,7 +144,7 @@
 - (BOOL) containsSameElementsAs :(NSArray *) array {
     if (array.count != self.count)
         return NO;
-
+    
     NSArray *allItems1 = [NSArray arrayWithObjects:[self uniqueElements] containedIn:array];
     if (allItems1.count != [self uniqueElements].count) {
         return NO;
@@ -190,7 +191,7 @@
         NSAssert(idx >= 0 && idx < self.count, @"wrong index");
         result = self[idx];
     }
-
+    
     return result;
 }
 
@@ -211,7 +212,7 @@
     
     
     return randomItem;
-
+    
 }
 
 - (BOOL) containsUniquePointerElements {
@@ -261,8 +262,19 @@
 }
 
 + (BOOL) notEmpty :(id) array{
+    if (!array) {
+        return NO;
+    }
     NSArray* a = [NSArray cast:array];
     return a && a.count > 0;
+}
+
++ (BOOL) emptyOrNil :(id) array{
+    if (!array) {
+        return YES;
+    }
+    NSArray* a = [NSArray cast:array];
+    return !a || a.count == 0;
 }
 
 - (NSUInteger) arrayContentsByPropertyHash :(NSArray*) propertyNames
@@ -273,7 +285,7 @@
     for (id object in self) {
         result = prime * result + [object propertyHash:propertyNames];
     }
-
+    
     return result;
 }
 

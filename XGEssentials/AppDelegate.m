@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XGEssentials.h"
 
 @interface AppDelegate ()
 
