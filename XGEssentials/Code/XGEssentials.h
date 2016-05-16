@@ -7,9 +7,13 @@
 //
 //
 
+// HACKS FOLDER NOT INCLUDED!
+
 #import "NSArray+XGUtils.h"
 #import "NSObject+XGCasting.h"
 #import "NSObject+XGPropertyHash.h"
-#import "UIView+NibLoading.h"
+#import "UIView+XGNibLoading.h"
 #import "NSString+XGMD5.h"
 #import "NSObject+XGDispatchOnceOnMainThread.h"
+#import "NSDate+XGBetween.h"
+

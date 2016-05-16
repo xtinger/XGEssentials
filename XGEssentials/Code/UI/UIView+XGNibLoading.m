@@ -1,14 +1,16 @@
 //
-//  UIView+NibLoading.m
-//
+//  UIView+XGNibLoading.m
+//  XGEssentials
+//  https://github.com/xtinger/XGEssentials
+
 //  Created by Nicolas Bouilleaud.
 //
 // 	https://github.com/n-b/UIView-NibLoading
 
-#import "UIView+NibLoading.h"
+#import "UIView+XGNibLoading.h"
 @import ObjectiveC; 
 
-@implementation UIView(NibLoading)
+@implementation UIView(XGNibLoading)
 
 + (UINib*) _nibLoadingAssociatedNibWithName:(NSString*)nibName
 {
