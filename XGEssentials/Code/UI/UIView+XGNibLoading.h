@@ -1,5 +1,7 @@
 //
-//  UIView+NibLoading.h
+//  UIView+XGNibLoading.h
+//  XGEssentials
+//  https://github.com/xtinger/XGEssentials
 //
 //  Created by Nicolas Bouilleaud.
 //
@@ -7,7 +9,7 @@
 
 @import UIKit;
 
-@interface UIView (NibLoading)
+@interface UIView (XGNibLoading)
 
 // Loads the views inside a nib and adds it as subviews of the receiver.
 // There must be exactly one root UIView in the nib, acting as a container for the subviews of the receiver.
