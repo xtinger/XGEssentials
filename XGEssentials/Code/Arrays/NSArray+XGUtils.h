@@ -1,15 +1,14 @@
 //
-//  NSArray+Shuffle.h
-//  DVCommon
+//  NSArray+XGUtils.h
+//  XGEssentials
+//  https://github.com/xtinger/XGEssentials
 //
-//  Created by Dennis Voronov on 12/5/12.
-//  Copyright (c) 2012 Dennis Voronov. All rights reserved.
+//  Created by Denis Voronov on 12/5/12.
 //
 
 @import Foundation;
-//#import "DVValue.h"
 
-@interface NSArray (Utils)
+@interface NSArray (XGUtils)
 
 + (NSArray *) newArrayWithArray :(NSArray *)array :(NSInteger) from :(NSInteger) to;
 + (NSArray *) arrayWithShuffling :(NSArray *) array;
