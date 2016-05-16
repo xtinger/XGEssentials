@@ -1,14 +1,15 @@
 //
 //  NSString+MD5.m
-//  Lini
+//  XGEssentials
+//  https://github.com/xtinger/XGEssentials
 //
 //  Created by Denis Voronov on 09/04/14.
-//  Copyright (c) 2014 Fold & Spine. All rights reserved.
 //
 
 #import <CommonCrypto/CommonDigest.h>
+#import "NSString+MD5.h"
 
-@implementation NSString (MD5)
+@implementation NSString(XG_MD5)
 
 - (NSString *)MD5String {
     const char *cstr = [self UTF8String];
