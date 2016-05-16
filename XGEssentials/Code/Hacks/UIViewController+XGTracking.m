@@ -17,7 +17,7 @@
 #ifdef CONTROLLER_TRACKING_ENABLED
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [EFLRuntimeHelper swizzleMethods:[self class] :@selector(viewWillAppear:) :@selector(swizzled_viewWillAppear:)];
+        [XGRuntimeHelper swizzleMethods:[self class] :@selector(viewWillAppear:) :@selector(swizzled_viewWillAppear:)];
 //        [EFLRuntimeHelper swizzleMethods:@selector(viewDidAppear:) :@selector(swizzled_viewDidAppear:)];
     });
 #endif

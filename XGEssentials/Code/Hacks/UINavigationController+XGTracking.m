@@ -15,8 +15,8 @@
 #ifdef CONTROLLER_TRACKING_ENABLED
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [EFLRuntimeHelper swizzleMethods:[self class] :@selector(popViewControllerAnimated:) :@selector(swizzled_popViewControllerAnimated:)];
-        [EFLRuntimeHelper swizzleMethods:[self class] :@selector(pushViewController:animated:) :@selector(swizzled_pushViewController:animated:)];
+        [XGRuntimeHelper swizzleMethods:[self class] :@selector(popViewControllerAnimated:) :@selector(swizzled_popViewControllerAnimated:)];
+        [XGRuntimeHelper swizzleMethods:[self class] :@selector(pushViewController:animated:) :@selector(swizzled_pushViewController:animated:)];
     });
 #endif
 }
