@@ -79,8 +79,8 @@
 		923D04AC1CEA2D750002E736 /* UIViewController+XGDismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XGDismiss.m"; sourceTree = "<group>"; };
 		923D04AD1CEA2D750002E736 /* XGEssentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGEssentials.h; sourceTree = "<group>"; };
 		923D04AE1CEA2D750002E736 /* XGEssentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGEssentials.m; sourceTree = "<group>"; };
-		923D04C01CEA2FA30002E736 /* XGRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGRuntimeHelper.h; sourceTree = "<group>"; };
-		923D04C11CEA2FA30002E736 /* XGRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGRuntimeHelper.m; sourceTree = "<group>"; };
+		923D04C01CEA2FA30002E736 /* XGRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XGRuntimeHelper.h; path = ../Hacks/XGRuntimeHelper.h; sourceTree = "<group>"; };
+		923D04C11CEA2FA30002E736 /* XGRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XGRuntimeHelper.m; path = ../Hacks/XGRuntimeHelper.m; sourceTree = "<group>"; };
 		923D04C31CEA31070002E736 /* XGEssentialsDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGEssentialsDefines.h; sourceTree = "<group>"; };
 		92E140C31CE9E5DF00DFE379 /* XGEssentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGEssentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E140C71CE9E5DF00DFE379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -146,6 +146,8 @@
 			children = (
 				923D048A1CEA2D750002E736 /* NSDate+XGBetween.h */,
 				923D048B1CEA2D750002E736 /* NSDate+XGBetween.m */,
+				923D04C01CEA2FA30002E736 /* XGRuntimeHelper.h */,
+				923D04C11CEA2FA30002E736 /* XGRuntimeHelper.m */,
 			);
 			path = Etc;
 			sourceTree = "<group>";
@@ -168,8 +170,6 @@
 				923D04931CEA2D750002E736 /* UINavigationController+XGTracking.m */,
 				923D04941CEA2D750002E736 /* UIViewController+XGTracking.h */,
 				923D04951CEA2D750002E736 /* UIViewController+XGTracking.m */,
-				923D04C01CEA2FA30002E736 /* XGRuntimeHelper.h */,
-				923D04C11CEA2FA30002E736 /* XGRuntimeHelper.m */,
 			);
 			path = Hacks;
 			sourceTree = "<group>";
