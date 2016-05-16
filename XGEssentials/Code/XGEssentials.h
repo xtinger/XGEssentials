@@ -16,4 +16,11 @@
 #import "NSString+XGMD5.h"
 #import "NSObject+XGDispatchOnceOnMainThread.h"
 #import "NSDate+XGBetween.h"
+#import "UINavigationController+XGCompletionHandler.h"
+#import "UINavigationItem+XGRightItemsPosition.h"
+#import "UIView+XGRotate.h"
+#import "UIView+XGUtils.h"
+#import "UIViewController+XGDismiss.h"
+#import "XGRuntimeHelper.h"
+#import "UIImage+XGUtils.h"
 
