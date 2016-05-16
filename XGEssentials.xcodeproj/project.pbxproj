@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		923D039C1CE9E7930002E736 /* UIView+NibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D039B1CE9E7930002E736 /* UIView+NibLoading.m */; };
-		923D03AB1CE9EFD70002E736 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D03AA1CE9EFD70002E736 /* NSString+MD5.m */; };
+		923D03AB1CE9EFD70002E736 /* NSString+XGMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D03AA1CE9EFD70002E736 /* NSString+XGMD5.m */; };
 		92E140C81CE9E5DF00DFE379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E140C71CE9E5DF00DFE379 /* main.m */; };
 		92E140CB1CE9E5DF00DFE379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E140CA1CE9E5DF00DFE379 /* AppDelegate.m */; };
 		92E140CE1CE9E5DF00DFE379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E140CD1CE9E5DF00DFE379 /* ViewController.m */; };
@@ -31,8 +31,8 @@
 /* Begin PBXFileReference section */
 		923D039A1CE9E7930002E736 /* UIView+NibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NibLoading.h"; sourceTree = "<group>"; };
 		923D039B1CE9E7930002E736 /* UIView+NibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NibLoading.m"; sourceTree = "<group>"; };
-		923D03A91CE9EFD70002E736 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
-		923D03AA1CE9EFD70002E736 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		923D03A91CE9EFD70002E736 /* NSString+XGMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XGMD5.h"; sourceTree = "<group>"; };
+		923D03AA1CE9EFD70002E736 /* NSString+XGMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XGMD5.m"; sourceTree = "<group>"; };
 		92E140C31CE9E5DF00DFE379 /* XGEssentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGEssentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E140C71CE9E5DF00DFE379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92E140C91CE9E5DF00DFE379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		923D03A81CE9EFD70002E736 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
-				923D03A91CE9EFD70002E736 /* NSString+MD5.h */,
-				923D03AA1CE9EFD70002E736 /* NSString+MD5.m */,
+				923D03A91CE9EFD70002E736 /* NSString+XGMD5.h */,
+				923D03AA1CE9EFD70002E736 /* NSString+XGMD5.m */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -246,7 +246,7 @@
 			files = (
 				92E140CE1CE9E5DF00DFE379 /* ViewController.m in Sources */,
 				923D039C1CE9E7930002E736 /* UIView+NibLoading.m in Sources */,
-				923D03AB1CE9EFD70002E736 /* NSString+MD5.m in Sources */,
+				923D03AB1CE9EFD70002E736 /* NSString+XGMD5.m in Sources */,
 				92E140CB1CE9E5DF00DFE379 /* AppDelegate.m in Sources */,
 				92E140C81CE9E5DF00DFE379 /* main.m in Sources */,
 			);
