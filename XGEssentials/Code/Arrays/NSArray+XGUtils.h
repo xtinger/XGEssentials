@@ -42,4 +42,7 @@
 - (NSUInteger) arrayContentsByPropertyHash :(NSArray*) propertyNames;
 - (NSUInteger) arrayContentsHash;
 
++ (BOOL) emptyOrNil :(id) array;
+
+
 @end

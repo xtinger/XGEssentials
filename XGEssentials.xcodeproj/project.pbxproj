@@ -11,6 +11,8 @@
 		923D03AB1CE9EFD70002E736 /* NSString+XGMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D03AA1CE9EFD70002E736 /* NSString+XGMD5.m */; };
 		923D03C51CE9F32C0002E736 /* NSArray+XGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D03C41CE9F32C0002E736 /* NSArray+XGUtils.m */; };
 		923D03C91CE9F3720002E736 /* NSObject+XGCasting.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D03C81CE9F3720002E736 /* NSObject+XGCasting.m */; };
+		923D03EF1CE9F7D50002E736 /* NSObject+XGPropertyHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D03EE1CE9F7D50002E736 /* NSObject+XGPropertyHash.m */; };
+		923D03F31CE9F8C10002E736 /* XGEssentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D03F21CE9F8C10002E736 /* XGEssentials.m */; };
 		92E140C81CE9E5DF00DFE379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E140C71CE9E5DF00DFE379 /* main.m */; };
 		92E140CB1CE9E5DF00DFE379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E140CA1CE9E5DF00DFE379 /* AppDelegate.m */; };
 		92E140CE1CE9E5DF00DFE379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E140CD1CE9E5DF00DFE379 /* ViewController.m */; };
@@ -39,6 +41,10 @@
 		923D03C41CE9F32C0002E736 /* NSArray+XGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XGUtils.m"; sourceTree = "<group>"; };
 		923D03C71CE9F3720002E736 /* NSObject+XGCasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XGCasting.h"; sourceTree = "<group>"; };
 		923D03C81CE9F3720002E736 /* NSObject+XGCasting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XGCasting.m"; sourceTree = "<group>"; };
+		923D03ED1CE9F7D50002E736 /* NSObject+XGPropertyHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XGPropertyHash.h"; sourceTree = "<group>"; };
+		923D03EE1CE9F7D50002E736 /* NSObject+XGPropertyHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XGPropertyHash.m"; sourceTree = "<group>"; };
+		923D03F11CE9F8C10002E736 /* XGEssentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGEssentials.h; sourceTree = "<group>"; };
+		923D03F21CE9F8C10002E736 /* XGEssentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGEssentials.m; sourceTree = "<group>"; };
 		92E140C31CE9E5DF00DFE379 /* XGEssentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGEssentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E140C71CE9E5DF00DFE379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92E140C91CE9E5DF00DFE379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +110,8 @@
 			children = (
 				923D03C71CE9F3720002E736 /* NSObject+XGCasting.h */,
 				923D03C81CE9F3720002E736 /* NSObject+XGCasting.m */,
+				923D03ED1CE9F7D50002E736 /* NSObject+XGPropertyHash.h */,
+				923D03EE1CE9F7D50002E736 /* NSObject+XGPropertyHash.m */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -167,6 +175,8 @@
 				923D03C61CE9F3720002E736 /* Objects */,
 				923D03A81CE9EFD70002E736 /* Strings */,
 				923D03991CE9E7930002E736 /* UI */,
+				923D03F11CE9F8C10002E736 /* XGEssentials.h */,
+				923D03F21CE9F8C10002E736 /* XGEssentials.m */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -272,11 +282,13 @@
 			files = (
 				92E140CE1CE9E5DF00DFE379 /* ViewController.m in Sources */,
 				923D039C1CE9E7930002E736 /* UIView+NibLoading.m in Sources */,
+				923D03F31CE9F8C10002E736 /* XGEssentials.m in Sources */,
 				923D03AB1CE9EFD70002E736 /* NSString+XGMD5.m in Sources */,
 				923D03C51CE9F32C0002E736 /* NSArray+XGUtils.m in Sources */,
 				923D03C91CE9F3720002E736 /* NSObject+XGCasting.m in Sources */,
 				92E140CB1CE9E5DF00DFE379 /* AppDelegate.m in Sources */,
 				92E140C81CE9E5DF00DFE379 /* main.m in Sources */,
+				923D03EF1CE9F7D50002E736 /* NSObject+XGPropertyHash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
