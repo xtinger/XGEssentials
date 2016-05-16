@@ -1,5 +1,5 @@
 //
-//  NSObject+EFLPropertyHash.m
+//  NSObject+XGPropertyHash.m
 //  XGEssentials
 //  https://github.com/xtinger/XGEssentials
 //
