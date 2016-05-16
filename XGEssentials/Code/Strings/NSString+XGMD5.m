@@ -7,9 +7,9 @@
 //
 
 #import <CommonCrypto/CommonDigest.h>
-#import "NSString+MD5.h"
+#import "NSString+XGMD5.h"
 
-@implementation NSString(XG_MD5)
+@implementation NSString(XGMD5)
 
 - (NSString *)MD5String {
     const char *cstr = [self UTF8String];

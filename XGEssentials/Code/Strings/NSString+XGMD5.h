@@ -8,7 +8,7 @@
 
 @import Foundation;
 
-@interface NSString(XG_MD5)
+@interface NSString(XGMD5)
 
 - (NSString *)MD5String;
 
