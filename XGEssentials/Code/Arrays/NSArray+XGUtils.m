@@ -119,6 +119,7 @@
 //    return nil;
 //}
 
+// оптимизировать
 - (id) getRandomElementNotEqual :(id)object {
     
     for (int i = 0; i < self.count; i++) {
@@ -130,6 +131,7 @@
     return [self getFirstElementNotEqual:object];
 }
 
+// оптимизировать
 - (id) getRandomElementNotContainedIn :(NSArray *) array {
     
     for (int i = 0; i < self.count; i++) {
