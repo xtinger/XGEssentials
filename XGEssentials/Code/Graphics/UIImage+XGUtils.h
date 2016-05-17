@@ -11,5 +11,6 @@
 @interface UIImage (XGUtils)
 
 - (UIImage *) scaledToSize:(CGSize)size;
+- (UIImage *)imageByScalingAndCroppingToSize :(CGSize) size;
 
 @end
