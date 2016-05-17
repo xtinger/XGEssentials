@@ -10,11 +10,14 @@
 #ifndef XGEssentialsLoggingWithLumberjack_h
 #define XGEssentialsLoggingWithLumberjack_h
 
+#define XGLogNotImplemented() DDLogNotImplemented()
 #define XGLogError(frmt, ...) DDLogError(frmt, ##__VA_ARGS__)
 #define XGLogWarn(frmt, ...) DDLogWarn(frmt, ##__VA_ARGS__)
 #define XGLogInfo(frmt, ...) DDLogInfo(frmt, ##__VA_ARGS__)
 #define XGLogDebug(frmt, ...) DDLogDebug(frmt, ##__VA_ARGS__)
 #define XGLogVerbose(frmt, ...) DDLogVerbose(frmt, ##__VA_ARGS__)
+
+#define DDLogNotImplemented() DDLogError(@"%s must be overridden in a subclass/category", __PRETTY_FUNCTION__)
 
 #define DDLogWithFlag(lv, frmt, ...) \
 LOG_MAYBE(lv == DDLogFlagError ? NO : LOG_ASYNC_ENABLED, LOG_LEVEL_DEF, lv,   0, nil, __PRETTY_FUNCTION__, frmt, ##__VA_ARGS__)
