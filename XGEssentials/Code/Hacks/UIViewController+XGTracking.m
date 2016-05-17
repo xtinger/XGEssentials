@@ -9,8 +9,6 @@
 #import "UIViewController+XGTracking.h"
 #import "XGRuntimeHelper.h"
 
-#define DDLogVerbose NSLog // TEMP
-
 @implementation UIViewController (XGTracking)
 
 + (void)load {
@@ -44,16 +42,16 @@
     [self swizzled_viewWillAppear:animated];
     NSString* readable = [self performNameInvocation];
     if (readable) {
-        DDLogVerbose(@"viewWillAppear: %@", readable);
+        XGLogVerbose(@"viewWillAppear: %@", readable);
     }
     else {
-        DDLogVerbose(@"viewWillAppear: %@", self);
+        XGLogVerbose(@"viewWillAppear: %@", self);
     }
 }
 
 - (void)swizzled_viewDidAppear:(BOOL)animated {
     [self swizzled_viewDidAppear:animated];
-    DDLogVerbose(@"viewDidAppear: %@", self);
+    XGLogVerbose(@"viewDidAppear: %@", self);
 }
 
 @end

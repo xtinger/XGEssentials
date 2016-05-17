@@ -115,7 +115,7 @@
     if (self.hidden == NO && self.alpha == toAlpha)
         return;
     
-//    DDLogInfo(@"showAnimated view: %@", self.description);
+//    XGLogInfo(@"showAnimated view: %@", self.description);
     
     self.alpha = 0;
     self.hidden = NO;
@@ -144,7 +144,7 @@
         return;
     }
     
-//    DDLogInfo(@"hideAnimated view: %@", self.description);
+//    XGLogInfo(@"hideAnimated view: %@", self.description);
     
     self.hidden = NO;
     float alpha = self.alpha;
