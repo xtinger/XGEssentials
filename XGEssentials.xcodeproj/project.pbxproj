@@ -81,7 +81,9 @@
 		923D04AE1CEA2D750002E736 /* XGEssentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGEssentials.m; sourceTree = "<group>"; };
 		923D04C01CEA2FA30002E736 /* XGRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XGRuntimeHelper.h; path = ../Hacks/XGRuntimeHelper.h; sourceTree = "<group>"; };
 		923D04C11CEA2FA30002E736 /* XGRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XGRuntimeHelper.m; path = ../Hacks/XGRuntimeHelper.m; sourceTree = "<group>"; };
-		923D04C31CEA31070002E736 /* XGEssentialsDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGEssentialsDefines.h; sourceTree = "<group>"; };
+		923D04C31CEA31070002E736 /* XGEssentialsLoggingCocoaLumberjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGEssentialsLoggingCocoaLumberjack.h; sourceTree = "<group>"; };
+		929062481CEB52640053C78F /* XGEssentialsDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGEssentialsDefines.h; sourceTree = "<group>"; };
+		929062491CEB52810053C78F /* XGEssentialsLoggingOff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGEssentialsLoggingOff.h; sourceTree = "<group>"; };
 		92E140C31CE9E5DF00DFE379 /* XGEssentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGEssentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E140C71CE9E5DF00DFE379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92E140C91CE9E5DF00DFE379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,7 +129,9 @@
 				923D04A01CEA2D750002E736 /* UI */,
 				923D04AD1CEA2D750002E736 /* XGEssentials.h */,
 				923D04AE1CEA2D750002E736 /* XGEssentials.m */,
-				923D04C31CEA31070002E736 /* XGEssentialsDefines.h */,
+				929062481CEB52640053C78F /* XGEssentialsDefines.h */,
+				929062491CEB52810053C78F /* XGEssentialsLoggingOff.h */,
+				923D04C31CEA31070002E736 /* XGEssentialsLoggingCocoaLumberjack.h */,
 			);
 			path = Code;
 			sourceTree = "<group>";
