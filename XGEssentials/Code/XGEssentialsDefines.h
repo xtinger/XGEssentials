@@ -19,6 +19,7 @@
 
 #define Nullify(a) (a ? a : [NSNull null])
 #define IsNull(value) !value || [value isEqual:[NSNull null]]
+#define IsNotNull(value) value && ![value isEqual:[NSNull null]]
 
 #define UICOLOR_ALPHA(c, a) [UIColor colorWithRed:CGColorGetComponents(c.CGColor)[0] green:CGColorGetComponents(c.CGColor)[1] blue:CGColorGetComponents(c.CGColor)[2] alpha:a]
 #define UICOLOR_RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
@@ -30,5 +31,11 @@
 #define CGCOLOR_RGB(r, g, b) [[UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1] CGColor]
 
 #define Str(...) ((NSString *)[NSString stringWithFormat:__VA_ARGS__,nil])
+
+// CGRect
+#define SetX(frame, x)               frame = CGRectMake(x, frame.origin.y, frame.size.width, frame.size.height)
+#define SetY(frame, y)               frame = CGRectMake(frame.origin.x, y, frame.size.width, frame.size.height)
+#define SetWidth(frame, w)           frame = CGRectMake(frame.origin.x, frame.origin.y, w, frame.size.height)
+#define SetHeight(frame, h)          frame = CGRectMake(frame.origin.x, frame.origin.y, frame.size.width, h)
 
 #endif /* XGEssentialsDefines_h */
