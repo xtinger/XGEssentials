@@ -13,4 +13,8 @@
 - (UIImage *) scaledToSize:(CGSize)size;
 - (UIImage *)imageByScalingAndCroppingToSize :(CGSize) size;
 
+- (UIColor *)averageColor;
+- (UIColor *)mergedColor;
+
+
 @end
