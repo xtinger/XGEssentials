@@ -21,6 +21,8 @@
 #define IsNull(value) !value || [value isEqual:[NSNull null]]
 #define IsNotNull(value) value && ![value isEqual:[NSNull null]]
 
+#define perform_selector_safe1(delegate , sel , arg1)  ([delegate respondsToSelector:sel]) ? [delegate performSelector:sel withObject:arg1] : NO;
+
 #define UICOLOR_ALPHA(c, a) [UIColor colorWithRed:CGColorGetComponents(c.CGColor)[0] green:CGColorGetComponents(c.CGColor)[1] blue:CGColorGetComponents(c.CGColor)[2] alpha:a]
 #define UICOLOR_RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 #define UICOLOR_RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
