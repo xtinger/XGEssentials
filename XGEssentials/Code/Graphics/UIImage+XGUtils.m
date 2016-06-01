@@ -77,7 +77,6 @@
         }
     }
     CFRelease(data);
-    CFRelease(rawImageRef);
     
     CGFloat f = 1.0f / (255.0f * imageWidth * imageHeight);
     return [UIColor colorWithRed:f * red  green:f * green blue:f * blue alpha:1];
