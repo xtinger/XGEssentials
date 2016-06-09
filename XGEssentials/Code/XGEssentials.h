@@ -23,4 +23,6 @@
 #import "UIViewController+XGDismiss.h"
 #import "XGRuntimeHelper.h"
 #import "UIImage+XGUtils.h"
+#import "TemplateSingleton.h"
+#import "NSString+XGBase64.h"
 

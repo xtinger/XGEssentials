@@ -98,6 +98,9 @@
     return color;
 }
 
+- (NSString *) base64StringRepresentation {
+    return [UIImageJPEGRepresentation(self, 0.7) base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+}
 
 
 @end
