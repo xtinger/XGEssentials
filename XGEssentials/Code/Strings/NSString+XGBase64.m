@@ -1,9 +1,9 @@
 //
 //  NSString+XGBase64.m
-//  MeetingAt
+//  XGEssentials
+//  https://github.com/xtinger/XGEssentials
 //
 //  Created by Denis Voronov on 09/06/16.
-//  Copyright © 2016 Emanor. All rights reserved.
 //
 
 #import "NSString+XGBase64.h"

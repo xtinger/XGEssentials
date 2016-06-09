@@ -25,4 +25,5 @@
 #import "UIImage+XGUtils.h"
 #import "TemplateSingleton.h"
 #import "NSString+XGBase64.h"
+#import "NSString+XGUtils.h"
 

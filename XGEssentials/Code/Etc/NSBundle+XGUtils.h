@@ -1,9 +1,9 @@
 //
 //  NSBundle+XGUtils.h
-//  MeetingAt
+//  XGEssentials
+//  https://github.com/xtinger/XGEssentials
 //
 //  Created by Denis Voronov on 08/06/16.
-//  Copyright © 2016 Emanor. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
