@@ -10,6 +10,8 @@
 
 @interface NSBundle (XGUtils)
 
+// Приложение запущено в режиме Sandbox (НЕ СИМУЛЯТОР!)
+// Запуск из TestFlight, Fabric и т.п.
 - (BOOL) isRunningInSandbox;
 
 @end
