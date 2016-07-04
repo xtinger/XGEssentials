@@ -27,4 +27,7 @@
 #define XGLogAssertBreak(condition, frmt, ...)
 #define XGLogAssertContinue(condition, frmt, ...)
 
+#define XGLogFuncStart() NSLog((@"%s [Line %d] start"), __PRETTY_FUNCTION__, __LINE__);
+#define XGLogFuncFinish() NSLog((@"%s [Line %d] finish"), __PRETTY_FUNCTION__, __LINE__);
+
 #endif /* XGEssentialsLoggingOff_h */

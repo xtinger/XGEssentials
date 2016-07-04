@@ -55,4 +55,7 @@ continue; \
 #define XGLogAssertBreak(condition, frmt, ...) DDLogAssertBreak(condition, frmt, ##__VA_ARGS__)
 #define XGLogAssertContinue(condition, frmt, ...) DDLogAssertContinue(condition, frmt, ##__VA_ARGS__)
 
+#define XGLogFuncStart() XGLogDebug((@"%s [Line %d] start"), __PRETTY_FUNCTION__, __LINE__);
+#define XGLogFuncFinish() XGLogDebug((@"%s [Line %d] finish"), __PRETTY_FUNCTION__, __LINE__);
+
 #endif /* XGEssentialsLoggingWithLumberjack_h */
