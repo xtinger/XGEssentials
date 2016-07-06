@@ -32,6 +32,9 @@
 #define CGCOLOR_RGBA(r, g, b, a) [[UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a] CGColor]
 #define CGCOLOR_RGB(r, g, b) [[UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1] CGColor]
 
+static inline UIColor* XGMakeColor(CGFloat r, CGFloat g, CGFloat b) {return [UIColor colorWithRed:(r/255.0f) green:(g/255.0f) blue:(b/255.0f) alpha:1.0f];}
+static inline UIColor* XGMakeColorA(CGFloat r, CGFloat g, CGFloat b, CGFloat a) {return [UIColor colorWithRed:(r/255.0f) green:(g/255.0f) blue:(b/255.0f) alpha:a];}
+
 #define Str(...) ((NSString *)[NSString stringWithFormat:__VA_ARGS__,nil])
 
 // CGRect
