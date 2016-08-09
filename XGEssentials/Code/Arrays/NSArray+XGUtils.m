@@ -16,7 +16,7 @@
 
 + (NSArray *) newArrayWithArray :(NSArray *)array :(NSInteger) from :(NSInteger) to {
     NSMutableArray *resultM = [[NSMutableArray alloc] init];
-    for (long i = from; i <= to; i++) {
+    for (long i = from; i <= to && i < array.count; i++) {
         id item = array[i];
         [resultM addObject:item];
     }
