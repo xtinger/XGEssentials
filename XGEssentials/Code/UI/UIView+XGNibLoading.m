@@ -149,6 +149,8 @@ static char kUIViewNibLoading_outletsKey;
 {
     self = [super initWithCoder:aDecoder];
     [self loadContentsFromNib];
+    // DV
+    [self didLoadContents];
     return self;
 }
 
@@ -156,7 +158,15 @@ static char kUIViewNibLoading_outletsKey;
 {
     self = [super initWithFrame:frame];
     [self loadContentsFromNib];
+    // DV
+    [self didLoadContents];
     return self;
+}
+
+
+// DV
+- (void) didLoadContents {
+    
 }
 
 @end

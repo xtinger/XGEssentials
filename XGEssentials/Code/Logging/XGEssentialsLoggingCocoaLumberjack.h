@@ -35,6 +35,13 @@ DDLogError(@"%@", description);   \
 return; \
 }
 
+#define DDLogAssertReturnNil(condition, frmt, ...)     \
+if (!(condition)) { \
+NSString *description = [NSString stringWithFormat:frmt, ## __VA_ARGS__]; \
+DDLogError(@"%@", description);   \
+return nil; \
+}
+
 #define DDLogAssertBreak(condition, frmt, ...)     \
 if (!(condition)) { \
 NSString *description = [NSString stringWithFormat:frmt, ## __VA_ARGS__]; \
@@ -52,6 +59,7 @@ continue; \
 #define XGLogWithFlag(lv, frmt, ...)  DDLogWithFlag(lv, frmt, ##__VA_ARGS__)
 #define XGLogAssert(condition, frmt, ...)  DDLogAssert(condition, frmt, ##__VA_ARGS__)
 #define XGLogAssertReturn(condition, frmt, ...) DDLogAssertReturn(condition, frmt, ##__VA_ARGS__)
+#define XGLogAssertReturnNil(condition, frmt, ...) DDLogAssertReturnNil(condition, frmt, ##__VA_ARGS__)
 #define XGLogAssertBreak(condition, frmt, ...) DDLogAssertBreak(condition, frmt, ##__VA_ARGS__)
 #define XGLogAssertContinue(condition, frmt, ...) DDLogAssertContinue(condition, frmt, ##__VA_ARGS__)
 
