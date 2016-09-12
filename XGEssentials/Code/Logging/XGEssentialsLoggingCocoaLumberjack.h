@@ -56,6 +56,11 @@ DDLogError(@"%@", description);   \
 continue; \
 }
 
+#define XGAssertReturn(condition)     \
+if (!(condition)) { \
+return; \
+}
+
 #define XGLogWithFlag(lv, frmt, ...)  DDLogWithFlag(lv, frmt, ##__VA_ARGS__)
 #define XGLogAssert(condition, frmt, ...)  DDLogAssert(condition, frmt, ##__VA_ARGS__)
 #define XGLogAssertReturn(condition, frmt, ...) DDLogAssertReturn(condition, frmt, ##__VA_ARGS__)
