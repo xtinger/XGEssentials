@@ -44,5 +44,7 @@
 
 + (BOOL) emptyOrNil :(id) array;
 
+- (NSArray *)arrayFromObjectsSelectedWithBlock:(id(^)(id object))block;
+
 
 @end
