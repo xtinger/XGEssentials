@@ -10,7 +10,7 @@
 
 @implementation NSMutableArray (XGUtils)
 
-- (void) addObject:(id)anObject selectedWithBlock:(id(^)())block {
+- (void) addObjectSelectedWithBlock:(id(^)())block {
     if (block) {
         id object = block();
         [self addObject:object];
