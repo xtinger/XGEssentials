@@ -10,6 +10,7 @@
 // HACKS FOLDER NOT INCLUDED!
 
 #import "NSArray+XGUtils.h"
+#import "NSMutableArray+XGUtils.h"
 #import "NSObject+XGCasting.h"
 #import "NSObject+XGPropertyHash.h"
 #import "UIView+XGNibLoading.h"
