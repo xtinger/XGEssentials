@@ -160,6 +160,18 @@
     return YES;
 }
 
+- (BOOL)isEqualToArrayByContents :(NSArray *) array {
+    if (self.count != array.count) {
+        return NO;
+    }
+    for (int i = 0; i < self.count; i++) {
+        if (![self[i] isEqual:array[i]]) {
+            return NO;
+        }
+    }
+    return YES;
+}
+
 - (BOOL) containsAllElementsFromArray :(NSArray *) array :(NSInteger) times {
     for (int i = 0; i < array.count; i++) {
         id item = self[i];

@@ -32,6 +32,7 @@
 @property (NS_NONATOMIC_IOSONLY, readonly) BOOL containsUniqueNumericElements;
 @property (NS_NONATOMIC_IOSONLY, readonly, copy) NSArray *uniqueElements;
 - (BOOL) containsSameElementsAs :(NSArray *) array;
+- (BOOL)isEqualToArrayByContents :(NSArray *) array;
 - (NSArray *)filteredArrayUsingBlock: (BOOL (^)(id evaluatedObject, NSDictionary *bindings))block;
 
 + (BOOL) notEmpty :(id) array;
