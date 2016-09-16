@@ -28,4 +28,4 @@
 #import "TemplateSingleton.h"
 #import "NSString+XGBase64.h"
 #import "NSString+XGUtils.h"
-
+#import "UIStackView+XGUtils.h"
