@@ -29,3 +29,4 @@
 #import "NSString+XGBase64.h"
 #import "NSString+XGUtils.h"
 #import "UIStackView+XGUtils.h"
+#import "XGFittingTextLabel.h"
