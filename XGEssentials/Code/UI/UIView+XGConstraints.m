@@ -56,4 +56,20 @@
     }
 }
 
+- (void)addFillSuperviewConstraints {
+    UIView* parentView = self.superview;
+    NSArray *constraintsV = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[view]|"
+                                                                    options:0
+                                                                    metrics:nil
+                                                                      views:@{@"view":self}];
+    NSArray *constraintsH = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[view]|"
+                                                                    options:0
+                                                                    metrics:nil
+                                                                      views:@{@"view":self}];
+    [self setTranslatesAutoresizingMaskIntoConstraints:NO];
+    //    [view setAutoresizingMask:UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth ];
+    [parentView addConstraints:constraintsV];
+    [parentView addConstraints:constraintsH];
+}
+
 @end

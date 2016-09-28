@@ -16,5 +16,6 @@
 - (NSLayoutConstraint*)heightConstraint;
 - (NSLayoutConstraint*)constraintForAttribute:(NSLayoutAttribute)attribute;
 - (CGSize)sizeFromConstraints;
+- (void)addFillSuperviewConstraints;
 
 @end
