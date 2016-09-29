@@ -34,6 +34,7 @@
 
 static inline UIColor* XGMakeColor(CGFloat r, CGFloat g, CGFloat b) {return [UIColor colorWithRed:(r/255.0f) green:(g/255.0f) blue:(b/255.0f) alpha:1.0f];}
 static inline UIColor* XGMakeColorA(CGFloat r, CGFloat g, CGFloat b, CGFloat a) {return [UIColor colorWithRed:(r/255.0f) green:(g/255.0f) blue:(b/255.0f) alpha:a];}
+static inline UIColor* XGMakeGrayColor(CGFloat c) {return [UIColor colorWithRed:(c/255.0f) green:(c/255.0f) blue:(c/255.0f) alpha:1.0f];}
 
 #define Str(...) ((NSString *)[NSString stringWithFormat:__VA_ARGS__,nil])
 
