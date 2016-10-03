@@ -326,5 +326,13 @@
     return collection;
 }
 
++ (NSArray*) arrayByAddingObjectsFromArray:(NSArray*)array repeatTimes:(NSUInteger)times{
+    NSMutableArray* arrayM = [NSMutableArray array];
+    for (NSUInteger i = 0; i < times; i++) {
+        [arrayM addObjectsFromArray:array];
+    }
+    return [arrayM copy];
+}
+
 
 @end

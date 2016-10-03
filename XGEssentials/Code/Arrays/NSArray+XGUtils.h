@@ -47,5 +47,6 @@
 
 - (NSArray *)arrayFromObjectsSelectedWithBlock:(id(^)(id object))block;
 
++ (NSArray*) arrayByAddingObjectsFromArray:(NSArray*)array repeatTimes:(NSUInteger)times;
 
 @end
