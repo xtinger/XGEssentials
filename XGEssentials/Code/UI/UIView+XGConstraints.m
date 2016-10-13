@@ -6,6 +6,8 @@
 //  Copyright © 2016 Emanor. All rights reserved.
 //
 
+#import "UIView+XGConstraints.h"
+
 @implementation UIView (XGConstraints)
 
 - (void)removeAllConstraints
