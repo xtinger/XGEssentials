@@ -10,6 +10,7 @@
 // HACKS FOLDER NOT INCLUDED!
 
 #import "NSArray+XGUtils.h"
+#import "NSMutableArray+XGUtils.h"
 #import "NSObject+XGCasting.h"
 #import "NSObject+XGPropertyHash.h"
 #import "UIView+XGNibLoading.h"
@@ -23,4 +24,10 @@
 #import "UIViewController+XGDismiss.h"
 #import "XGRuntimeHelper.h"
 #import "UIImage+XGUtils.h"
-
+#import "UIImage+ImageEffects.h"
+#import "TemplateSingleton.h"
+#import "NSString+XGBase64.h"
+#import "NSString+XGUtils.h"
+#import "UIStackView+XGUtils.h"
+#import "XGFittingTextLabel.h"
+#import "UIView+XGConstraints.h"

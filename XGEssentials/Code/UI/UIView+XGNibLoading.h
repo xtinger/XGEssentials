@@ -36,4 +36,6 @@
 //
 @interface NibLoadedView : UIView
 
+- (void) didLoadContents;
+
 @end

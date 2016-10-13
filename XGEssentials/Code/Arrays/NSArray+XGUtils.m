@@ -16,7 +16,7 @@
 
 + (NSArray *) newArrayWithArray :(NSArray *)array :(NSInteger) from :(NSInteger) to {
     NSMutableArray *resultM = [[NSMutableArray alloc] init];
-    for (long i = from; i <= to; i++) {
+    for (long i = from; i <= to && i < array.count; i++) {
         id item = array[i];
         [resultM addObject:item];
     }
@@ -157,6 +157,18 @@
         return NO;
     }
     
+    return YES;
+}
+
+- (BOOL)isEqualToArrayByContents :(NSArray *) array {
+    if (self.count != array.count) {
+        return NO;
+    }
+    for (int i = 0; i < self.count; i++) {
+        if (![self[i] isEqual:array[i]]) {
+            return NO;
+        }
+    }
     return YES;
 }
 
@@ -302,5 +314,25 @@
     
     return result;
 }
+
+- (NSArray *)arrayFromObjectsSelectedWithBlock:(id(^)(id object))block
+{
+    __block NSMutableArray *collection = [NSMutableArray arrayWithCapacity:[self count]];
+    
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [collection addObject:block(obj)];
+    }];
+    
+    return collection;
+}
+
++ (NSArray*) arrayByAddingObjectsFromArray:(NSArray*)array repeatTimes:(NSUInteger)times{
+    NSMutableArray* arrayM = [NSMutableArray array];
+    for (NSUInteger i = 0; i < times; i++) {
+        [arrayM addObjectsFromArray:array];
+    }
+    return [arrayM copy];
+}
+
 
 @end

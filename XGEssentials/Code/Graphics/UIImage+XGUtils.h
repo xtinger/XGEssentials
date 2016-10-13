@@ -11,6 +11,11 @@
 @interface UIImage (XGUtils)
 
 - (UIImage *) scaledToSize:(CGSize)size;
-- (UIImage *)imageByScalingAndCroppingToSize :(CGSize) size;
+- (UIImage *) imageByScalingAndCroppingToSize :(CGSize) size;
+
+- (UIColor *) averageColor;
+- (UIColor *) mergedColor;
+
+- (NSString *) base64StringRepresentation;
 
 @end
