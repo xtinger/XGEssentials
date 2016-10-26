@@ -12,7 +12,7 @@
 @implementation NSString (XGUtils)
 
 + (BOOL) isNilOrEmpty:(NSString *)string {
-    if (string == nil) return YES;
+    if (IsNull(string)) return YES;
     
     if (string.length == 0) {
         return YES;
