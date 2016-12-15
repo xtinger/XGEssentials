@@ -21,6 +21,7 @@
 
 
 #define Nullify(a) (a ? a : [NSNull null])
+#define Nillify(a) ([a isEqual:[NSNull null]] ? nil : a)
 #define IsNull(value) !value || [value isEqual:[NSNull null]]
 #define IsNotNull(value) value && ![value isEqual:[NSNull null]]
 
