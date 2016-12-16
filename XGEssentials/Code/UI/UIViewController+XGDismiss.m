@@ -13,7 +13,15 @@
 - (void) dismissWithCompletionIfPresented :(void (^)(void))completion {
 
     if (self.navigationController && [self.navigationController.viewControllers indexOfObject:self] > 0 && self.navigationController.topViewController == self) {
+
+        [CATransaction begin];
+        [CATransaction setCompletionBlock:^{
+            if (completion){
+                completion();
+            }
+        }];
         [self.navigationController popViewControllerAnimated:YES];
+        [CATransaction commit];
     }
     else if (self.presentingViewController) {
         [self dismissViewControllerAnimated:YES completion:completion];
