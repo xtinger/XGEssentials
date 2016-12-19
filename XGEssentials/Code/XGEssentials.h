@@ -31,3 +31,4 @@
 #import "UIStackView+XGUtils.h"
 #import "XGFittingTextLabel.h"
 #import "UIView+XGConstraints.h"
+#import "UIView+XGRoundedCorners.h"
