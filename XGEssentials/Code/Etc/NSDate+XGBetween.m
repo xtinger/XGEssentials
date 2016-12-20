@@ -10,7 +10,7 @@
 
 @implementation NSDate (XGBetween)
 
-- (BOOL)isBetweenDate :(NSDate*)date1 andDate:(NSDate*)date2 {
+- (BOOL)isBetweenDate:(NSDate*)date1 andDate:(NSDate*)date2 {
     return ([self laterDate:date1] == self) && ([self earlierDate:date2] == self);
 }
 

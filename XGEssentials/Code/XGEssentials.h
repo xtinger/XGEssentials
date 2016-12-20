@@ -32,3 +32,4 @@
 #import "XGFittingTextLabel.h"
 #import "UIView+XGConstraints.h"
 #import "UIView+XGRoundedCorners.h"
+#import "NSArray+XGEnum.h"
