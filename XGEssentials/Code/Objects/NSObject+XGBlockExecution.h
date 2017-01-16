@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^XGBlock)(id object);
+
 @interface NSObject (XGBlockExecution)
 
 - (void) executeBlock :(void(^)())block ifNotExecutedInLast: (NSTimeInterval)seconds secondsWithKey:(NSString*)key;
