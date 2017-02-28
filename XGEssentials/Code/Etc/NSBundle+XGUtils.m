@@ -48,7 +48,7 @@
     NSURL *appStoreReceiptURL = [self appStoreReceiptURL];
     NSString *appStoreReceiptLastComponent = appStoreReceiptURL.lastPathComponent;
     
-    BOOL isSandboxReceipt = ([receiptURLString rangeOfString:@"sandboxReceipt"].location != NSNotFound);
+    BOOL isSandboxReceipt = ([appStoreReceiptLastComponent rangeOfString:@"sandboxReceipt"].location != NSNotFound);
     return isSandboxReceipt;
 #endif
 }
@@ -62,7 +62,7 @@
 #if TARGET_OS_SIMULATOR
     return NO;
 #else
-    if (bit_isAppStoreReceiptSandbox() && !bit_hasEmbeddedMobileProvision()) {
+    if ([self p_isAppStoreReceiptSandbox] && ![self p_hasEmbeddedMobileProvision]) {
         return YES;
     }
     return NO;
