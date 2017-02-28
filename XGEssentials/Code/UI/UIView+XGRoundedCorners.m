@@ -17,7 +17,7 @@
 }
 
 - (NSNumber*)cornerRadiusMask {
-    DDLogError(@"cornerRadiusMask name not for fetch in view: %@", self);
+    XGLogError(@"cornerRadiusMask name not for fetch in view: %@", self);
     return nil;
 }
 

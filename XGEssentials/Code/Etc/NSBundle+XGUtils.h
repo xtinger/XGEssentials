@@ -14,4 +14,9 @@
 // Запуск из TestFlight, Fabric и т.п.
 - (BOOL) isRunningInSandbox;
 
+// Запуск из AppStore
+- (BOOL)isRunningInAppStoreEnvironment;
+
+- (BOOL)isRunningInAppExtension;
+
 @end
