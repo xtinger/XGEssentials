@@ -58,7 +58,7 @@
     return hasEmbeddedMobileProvision;
 }
 
-- (BOOL)p_isRunningInTestFlightEnvironment {
+- (BOOL)isRunningInTestFlightEnvironment {
 #if TARGET_OS_SIMULATOR
     return NO;
 #else

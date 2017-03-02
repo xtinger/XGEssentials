@@ -16,7 +16,7 @@
 
 // Запуск из AppStore
 - (BOOL)isRunningInAppStoreEnvironment;
-
+- (BOOL)isRunningInTestFlightEnvironment;
 - (BOOL)isRunningInAppExtension;
 
 @end
