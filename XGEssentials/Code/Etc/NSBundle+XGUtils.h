@@ -19,4 +19,8 @@
 - (BOOL)isRunningInTestFlightEnvironment;
 - (BOOL)isRunningInAppExtension;
 
+
+//TEMP
+- (BOOL)p_hasEmbeddedMobileProvision;
+
 @end
