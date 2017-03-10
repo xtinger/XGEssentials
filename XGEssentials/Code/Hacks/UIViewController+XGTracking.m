@@ -11,6 +11,10 @@
 
 @implementation UIViewController (XGTracking)
 
+- (NSString*)description{
+    return Str(@"%@ (%@)", super.description, NSStringFromClass([self class]));
+}
+
 + (void)load {
 #ifdef CONTROLLER_TRACKING_ENABLED
     static dispatch_once_t onceToken;
