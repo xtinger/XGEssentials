@@ -13,7 +13,7 @@
 - (void)setCornerRadiusMask:(NSNumber *)cornerRadiusMask{
     self.layer.cornerRadius = cornerRadiusMask.floatValue;
     self.layer.masksToBounds = YES;
-    [self.layer setNeedsDisplay];
+//    [self.layer setNeedsDisplay];
 }
 
 - (NSNumber*)cornerRadiusMask {
