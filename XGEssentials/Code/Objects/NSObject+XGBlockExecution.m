@@ -22,4 +22,10 @@
     }
 }
 
+- (void)modify :(void(^)(id))block{
+    if (block) {
+        block(self);
+    }
+}
+
 @end

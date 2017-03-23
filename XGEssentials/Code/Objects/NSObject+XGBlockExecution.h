@@ -14,4 +14,6 @@ typedef void(^XGBlock)(id object);
 
 - (void) executeBlock :(void(^)())block ifNotExecutedInLast: (NSTimeInterval)seconds secondsWithKey:(NSString*)key;
 
+- (void)modify :(void(^)(id))block;
+
 @end
