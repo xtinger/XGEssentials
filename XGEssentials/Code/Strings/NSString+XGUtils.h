@@ -21,6 +21,7 @@
 - (BOOL)containsStringEx:(NSString*)other;
 @property (NS_NONATOMIC_IOSONLY, getter=isValidEmail, readonly) BOOL validEmail;
 -(NSString *) stringByStrippingHTML;
++ (NSString*)coalesce:(NSArray*)strings;
 
 NSString * ToStr (long i);
 @end

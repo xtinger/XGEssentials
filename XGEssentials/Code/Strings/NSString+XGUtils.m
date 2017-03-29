@@ -103,4 +103,13 @@ NSString * ToStr (long i) {
     return s;
 }
 
++ (NSString*)coalesce:(NSArray*)strings{
+    for (NSString* string in strings) {
+        if (![NSString isNilOrEmpty:string]) {
+            return string;
+        }
+    }
+    return @"";
+}
+
 @end
