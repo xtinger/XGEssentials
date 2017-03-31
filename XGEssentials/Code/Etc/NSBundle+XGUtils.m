@@ -21,7 +21,7 @@
 #if TARGET_OS_SIMULATOR
     return NO;
 #else
-    if ([self p_isAppStoreReceiptSandbox] || [self p_hasEmbeddedMobileProvision]) {
+    if ([self p_isAppStoreReceiptSandbox] || [self hasEmbeddedMobileProvision]) {
         return NO;
     }
     return YES;
@@ -39,8 +39,6 @@
     return isRunningInAppExtension;
 }
 
-
-
 - (BOOL)p_isAppStoreReceiptSandbox {
 #if TARGET_OS_SIMULATOR
     return NO;
@@ -53,7 +51,7 @@
 #endif
 }
 
-- (BOOL)p_hasEmbeddedMobileProvision {
+- (BOOL)hasEmbeddedMobileProvision {
     BOOL hasEmbeddedMobileProvision = !![self pathForResource:@"embedded" ofType:@"mobileprovision"];
     return hasEmbeddedMobileProvision;
 }
@@ -62,7 +60,7 @@
 #if TARGET_OS_SIMULATOR
     return NO;
 #else
-    if ([self p_isAppStoreReceiptSandbox] && ![self p_hasEmbeddedMobileProvision]) {
+    if ([self p_isAppStoreReceiptSandbox] && ![self hasEmbeddedMobileProvision]) {
         return YES;
     }
     return NO;

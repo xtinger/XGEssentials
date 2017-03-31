@@ -12,15 +12,12 @@
 
 // Приложение запущено в режиме Sandbox (НЕ СИМУЛЯТОР!)
 // Запуск из TestFlight, Fabric и т.п.
-- (BOOL) isRunningInSandbox;
-
+- (BOOL)isRunningInSandbox;
 // Запуск из AppStore
 - (BOOL)isRunningInAppStoreEnvironment;
+//
 - (BOOL)isRunningInTestFlightEnvironment;
 - (BOOL)isRunningInAppExtension;
-
-
-//TEMP
-- (BOOL)p_hasEmbeddedMobileProvision;
+- (BOOL)hasEmbeddedMobileProvision;
 
 @end
