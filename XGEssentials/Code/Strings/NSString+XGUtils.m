@@ -103,13 +103,17 @@ NSString * ToStr (long i) {
     return s;
 }
 
-+ (NSString*)coalesce:(NSArray*)strings{
-    for (NSString* string in strings) {
-        if (![NSString isNilOrEmpty:string]) {
-            return string;
++ (NSString*)notSafeCoalesce:(NSArray*)strings{
+    NSString* result = @"";
+    @try {
+        for (NSString* string in strings) {
+            if (![NSString isNilOrEmpty:string]) {
+                result = string;
+                break;
+            }
         }
-    }
-    return @"";
+    } @catch (NSException *exception) {}
+    return result;
 }
 
 @end

@@ -8,6 +8,10 @@
 
 @import Foundation;
 
+#define SafeStr(str) [NSString getStringOrEmpty:str]
+#define coalesce(str1,str2) [NSString notSafeCoalesce:@[SafeStr(str1),SafeStr(str2)]]
+#define coalesce3(str1,str2,str3) [NSString notSafeCoalesce:@[SafeStr(str1),SafeStr(str2),SafeStr(str3)]]
+
 @interface NSString (XGUtils)
 
 @property (nonatomic, assign, readonly) BOOL isEmpty;
@@ -21,7 +25,7 @@
 - (BOOL)containsStringEx:(NSString*)other;
 @property (NS_NONATOMIC_IOSONLY, getter=isValidEmail, readonly) BOOL validEmail;
 -(NSString *) stringByStrippingHTML;
-+ (NSString*)coalesce:(NSArray*)strings;
++ (NSString*)notSafeCoalesce:(NSArray*)strings;
 
 NSString * ToStr (long i);
 @end
