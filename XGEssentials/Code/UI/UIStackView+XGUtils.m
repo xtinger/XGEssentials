@@ -7,6 +7,7 @@
 //
 
 #import "UIStackView+XGUtils.h"
+#import "UIView+XGUtils.h"
 
 @implementation UIStackView (XGUtils)
 
