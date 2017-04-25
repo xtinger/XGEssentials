@@ -102,5 +102,15 @@
     return [UIImageJPEGRepresentation(self, 0.7) base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
 }
 
+- (UIImage *) imageByRenderingWithTintColor:(UIColor*)tintColor {
+    UIImage *newImage = [self imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    UIGraphicsBeginImageContextWithOptions(newImage.size, NO, newImage.scale);
+    [tintColor set];
+    [newImage drawInRect:CGRectMake(0, 0, newImage.size.width, newImage.size.height)];
+    newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+
 
 @end

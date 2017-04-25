@@ -12,6 +12,7 @@
 
 - (UIImage *) scaledToSize:(CGSize)size;
 - (UIImage *) imageByScalingAndCroppingToSize :(CGSize) size;
+- (UIImage *) imageByRenderingWithTintColor:(UIColor*)tintColor;
 
 - (UIColor *) averageColor;
 - (UIColor *) mergedColor;
