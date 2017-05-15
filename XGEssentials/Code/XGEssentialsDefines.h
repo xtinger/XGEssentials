@@ -57,4 +57,10 @@ _sharedObject = block(); \
 }); \
 return _sharedObject; \
 
+#define SINGLETON_INIT_EXCEPTION(method) \
+- (instancetype)init{\
+[NSException raise:@"Singleton" format:@"Use +[%@ %@]", NSStringFromClass([self class]), method];\
+return nil;\
+}\
+
 #endif /* XGEssentialsDefines_h */
