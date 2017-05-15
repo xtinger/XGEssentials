@@ -48,4 +48,13 @@ static inline UIColor* XGMakeGrayColor(CGFloat c) {return [UIColor colorWithRed:
 #define SetWidth(frame, w)           frame = CGRectMake(frame.origin.x, frame.origin.y, w, frame.size.height)
 #define SetHeight(frame, h)          frame = CGRectMake(frame.origin.x, frame.origin.y, frame.size.width, h)
 
+// singleton instance construction
+#define SINGLETON_INSTANCE_USING_BLOCK(block) \
+static dispatch_once_t pred = 0; \
+__strong static id _sharedObject = nil; \
+dispatch_once(&pred, ^{ \
+_sharedObject = block(); \
+}); \
+return _sharedObject; \
+
 #endif /* XGEssentialsDefines_h */
