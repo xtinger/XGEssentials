@@ -1,0 +1,17 @@
+//
+//  XGEssentials.pch
+//  XGEssentials
+//
+//  Created by Denis Voronov on 16/06/2017.
+//  Copyright © 2017 Emanor. All rights reserved.
+//
+
+#ifndef XGEssentialsPch_h
+#define XGEssentialsPch_h
+
+#define LOG_LEVEL_DEF DDLogLevelDebug
+
+#import "XGEssentialsDefines.h"
+#import "XGLogger.h"
+
+#endif

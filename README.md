@@ -1,2 +1,0 @@
-# XGEssentials
-Personal ObjC toolkit
