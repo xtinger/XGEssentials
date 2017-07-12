@@ -35,8 +35,6 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 #import <XGEssentials/EFLStringHelper.h>
 #import <XGEssentials/UIView+XGUtils.h>
 #import <XGEssentials/NSDate+Utilities.h>
-#import <XGEssentials/XGLogger.h>
-#import <XGEssentials/XGLoggerBehavior.h>
 #import <XGEssentials/NSBundle+XGUtils.h>
 #import <XGEssentials/UIView+XGNibLoading.h>
 #import <XGEssentials/UINavigationController+XGCompletionHandler.h>

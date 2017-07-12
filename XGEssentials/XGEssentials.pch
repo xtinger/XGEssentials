@@ -9,9 +9,6 @@
 #ifndef XGEssentialsPch_h
 #define XGEssentialsPch_h
 
-#define LOG_LEVEL_DEF DDLogLevelDebug
-
-#import "XGEssentialsDefines.h"
-#import "XGLogger.h"
+@import XGCommon;
 
 #endif
