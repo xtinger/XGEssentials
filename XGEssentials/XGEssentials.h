@@ -67,6 +67,3 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 #import <XGEssentials/UISearchBar+RuntimeLocalization.h>
 #import <XGEssentials/UISegmentedControl+RuntimeLocalization.h>
 #import <XGEssentials/UITextField+RuntimeLocalization.h>
-//
-#import "XGAppDelegate.h"
-#import "XGAppDelegateBehavior.h"

@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		925F240F1F1513EE006C44A2 /* XGAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23951F1513EE006C44A2 /* XGAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24101F1513EE006C44A2 /* XGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23961F1513EE006C44A2 /* XGAppDelegate.m */; };
-		925F24111F1513EE006C44A2 /* XGAppDelegateBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23971F1513EE006C44A2 /* XGAppDelegateBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24121F1513EE006C44A2 /* XGAppDelegateBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23981F1513EE006C44A2 /* XGAppDelegateBehavior.m */; };
-		925F24131F1513EE006C44A2 /* XGAppDelegateBehaviorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23991F1513EE006C44A2 /* XGAppDelegateBehaviorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24141F1513EE006C44A2 /* NSArray+XGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F239B1F1513EE006C44A2 /* NSArray+XGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24151F1513EE006C44A2 /* NSArray+XGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F239C1F1513EE006C44A2 /* NSArray+XGUtils.m */; };
 		925F24161F1513EE006C44A2 /* NSMutableArray+XGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F239D1F1513EE006C44A2 /* NSMutableArray+XGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -116,11 +111,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		925F23951F1513EE006C44A2 /* XGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGAppDelegate.h; sourceTree = "<group>"; };
-		925F23961F1513EE006C44A2 /* XGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGAppDelegate.m; sourceTree = "<group>"; };
-		925F23971F1513EE006C44A2 /* XGAppDelegateBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGAppDelegateBehavior.h; sourceTree = "<group>"; };
-		925F23981F1513EE006C44A2 /* XGAppDelegateBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGAppDelegateBehavior.m; sourceTree = "<group>"; };
-		925F23991F1513EE006C44A2 /* XGAppDelegateBehaviorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGAppDelegateBehaviorProtocol.h; sourceTree = "<group>"; };
 		925F239B1F1513EE006C44A2 /* NSArray+XGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XGUtils.h"; sourceTree = "<group>"; };
 		925F239C1F1513EE006C44A2 /* NSArray+XGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XGUtils.m"; sourceTree = "<group>"; };
 		925F239D1F1513EE006C44A2 /* NSMutableArray+XGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+XGUtils.h"; sourceTree = "<group>"; };
@@ -252,7 +242,6 @@
 		925F23931F1513EE006C44A2 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				925F23941F1513EE006C44A2 /* AppDelegateBehavior */,
 				925F239A1F1513EE006C44A2 /* Arrays */,
 				925F239F1F1513EE006C44A2 /* Controls */,
 				925F23AC1F1513EE006C44A2 /* Etc */,
@@ -266,18 +255,6 @@
 				925F240A1F1513EE006C44A2 /* XGEssentialsDefines.h */,
 			);
 			path = Code;
-			sourceTree = "<group>";
-		};
-		925F23941F1513EE006C44A2 /* AppDelegateBehavior */ = {
-			isa = PBXGroup;
-			children = (
-				925F23951F1513EE006C44A2 /* XGAppDelegate.h */,
-				925F23961F1513EE006C44A2 /* XGAppDelegate.m */,
-				925F23971F1513EE006C44A2 /* XGAppDelegateBehavior.h */,
-				925F23981F1513EE006C44A2 /* XGAppDelegateBehavior.m */,
-				925F23991F1513EE006C44A2 /* XGAppDelegateBehaviorProtocol.h */,
-			);
-			path = AppDelegateBehavior;
 			sourceTree = "<group>";
 		};
 		925F239A1F1513EE006C44A2 /* Arrays */ = {
@@ -487,7 +464,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				925F24111F1513EE006C44A2 /* XGAppDelegateBehavior.h in Headers */,
 				925F245B1F1513EE006C44A2 /* NSObject+XGDictionaryWithProperties.h in Headers */,
 				925F24611F1513EE006C44A2 /* NSString+XGBase64.h in Headers */,
 				925F24181F1513EE006C44A2 /* EFLToast.h in Headers */,
@@ -541,8 +517,6 @@
 				925F24631F1513EE006C44A2 /* NSString+XGMD5.h in Headers */,
 				925F24781F1513EE006C44A2 /* XGEssentialsDefines.h in Headers */,
 				925F242B1F1513EE006C44A2 /* NSDate+XGBetween.h in Headers */,
-				925F24131F1513EE006C44A2 /* XGAppDelegateBehaviorProtocol.h in Headers */,
-				925F240F1F1513EE006C44A2 /* XGAppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,7 +617,6 @@
 				925F244D1F1513EE006C44A2 /* UILabel+RuntimeLocalization.m in Sources */,
 				925F24321F1513EE006C44A2 /* UIView+XGConstraints.m in Sources */,
 				925F241C1F1513EE006C44A2 /* XGRotatingImageActivityIndicatorView.m in Sources */,
-				925F24101F1513EE006C44A2 /* XGAppDelegate.m in Sources */,
 				925F24531F1513EE006C44A2 /* UITextField+RuntimeLocalization.m in Sources */,
 				925F245E1F1513EE006C44A2 /* NSObject+XGDispatchOnceOnMainThread.m in Sources */,
 				925F245C1F1513EE006C44A2 /* NSObject+XGDictionaryWithProperties.m in Sources */,
@@ -662,7 +635,6 @@
 				925F24751F1513EE006C44A2 /* UIView+XGRoundedCorners.m in Sources */,
 				925F246F1F1513EE006C44A2 /* UIStackView+XGUtils.m in Sources */,
 				925F244B1F1513EE006C44A2 /* UIButton+RuntimeLocalization.m in Sources */,
-				925F24121F1513EE006C44A2 /* XGAppDelegateBehavior.m in Sources */,
 				925F24511F1513EE006C44A2 /* UISegmentedControl+RuntimeLocalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
