@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #define Localized(x) [[Localizator sharedInstance] getString:x]
-#define LocalizedEx(x,y) Localized(x)
+#define LocalizedEx(x,y) [NSString isNilOrEmpty:Localized(x)] ? y : Localized(x)
 
 #define kSettingsDebugLocalizationCheck @"settings_debug_localization_check"
 
