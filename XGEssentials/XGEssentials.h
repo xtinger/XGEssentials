@@ -60,6 +60,10 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 #import <XGEssentials/XGRunOnMainThread.h>
 #import <XGEssentials/XGRuntimeHelper.h>
 #import <XGEssentials/NSDictionary+EFLUtils.h>
+//
+#import <XGEssentials/XGActivityIndicatorAnimationProtocol.h>
+#import <XGEssentials/XGRotatingImageActivityIndicatorView.h>
+#import <XGEssentials/XGRotatingImageAnimation.h>
 //Localization
 #import <XGEssentials/Localizator.h>
 #import <XGEssentials/UIButton+RuntimeLocalization.h>

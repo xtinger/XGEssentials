@@ -57,7 +57,7 @@
 		925F24431F1513EE006C44A2 /* UIViewController+XGTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23CF1F1513EE006C44A2 /* UIViewController+XGTracking.m */; };
 		925F24441F1513EE006C44A2 /* XGRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23D01F1513EE006C44A2 /* XGRuntimeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24451F1513EE006C44A2 /* XGRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23D11F1513EE006C44A2 /* XGRuntimeHelper.m */; };
-		925F24461F1513EE006C44A2 /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23D41F1513EE006C44A2 /* CHCSVParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925F24461F1513EE006C44A2 /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23D41F1513EE006C44A2 /* CHCSVParser.h */; };
 		925F24471F1513EE006C44A2 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23D51F1513EE006C44A2 /* CHCSVParser.m */; };
 		925F24481F1513EE006C44A2 /* Localizator.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23D61F1513EE006C44A2 /* Localizator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24491F1513EE006C44A2 /* Localizator.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23D71F1513EE006C44A2 /* Localizator.m */; };

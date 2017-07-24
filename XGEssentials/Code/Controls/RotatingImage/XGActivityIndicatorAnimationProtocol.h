@@ -6,8 +6,8 @@
 //  Copyright © 2016 Emanor. All rights reserved.
 //
 
-#ifndef Header_h
-#define Header_h
+#ifndef XGActivityIndicatorAnimationProtocol_Header_h
+#define XGActivityIndicatorAnimationProtocol_Header_h
 
 @import UIKit;
 
@@ -17,4 +17,4 @@
 
 @end
 
-#endif /* Header_h */
+#endif /* XGActivityIndicatorAnimationProtocol_Header_h */
