@@ -8,7 +8,6 @@
 
 #import "EFLStringHelper.h"
 #import "NSDate+Utilities.h"
-#import "Localizator.h"
 
 @interface EFLStringHelper ()
 

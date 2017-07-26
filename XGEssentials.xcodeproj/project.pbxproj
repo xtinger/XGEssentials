@@ -32,8 +32,6 @@
 		925F242A1F1513EE006C44A2 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23B41F1513EE006C44A2 /* NSDate+Utilities.m */; };
 		925F242B1F1513EE006C44A2 /* NSDate+XGBetween.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23B51F1513EE006C44A2 /* NSDate+XGBetween.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F242C1F1513EE006C44A2 /* NSDate+XGBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23B61F1513EE006C44A2 /* NSDate+XGBetween.m */; };
-		925F242D1F1513EE006C44A2 /* NSDictionary+EFLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23B71F1513EE006C44A2 /* NSDictionary+EFLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F242E1F1513EE006C44A2 /* NSDictionary+EFLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23B81F1513EE006C44A2 /* NSDictionary+EFLUtils.m */; };
 		925F242F1F1513EE006C44A2 /* NSNotificationCenter+PostToMainThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23B91F1513EE006C44A2 /* NSNotificationCenter+PostToMainThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24301F1513EE006C44A2 /* NSNotificationCenter+PostToMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23BA1F1513EE006C44A2 /* NSNotificationCenter+PostToMainThread.m */; };
 		925F24311F1513EE006C44A2 /* UIView+XGConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23BB1F1513EE006C44A2 /* UIView+XGConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,19 +56,6 @@
 		925F24441F1513EE006C44A2 /* XGRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23D01F1513EE006C44A2 /* XGRuntimeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24451F1513EE006C44A2 /* XGRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23D11F1513EE006C44A2 /* XGRuntimeHelper.m */; };
 		925F24461F1513EE006C44A2 /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23D41F1513EE006C44A2 /* CHCSVParser.h */; };
-		925F24471F1513EE006C44A2 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23D51F1513EE006C44A2 /* CHCSVParser.m */; };
-		925F24481F1513EE006C44A2 /* Localizator.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23D61F1513EE006C44A2 /* Localizator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24491F1513EE006C44A2 /* Localizator.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23D71F1513EE006C44A2 /* Localizator.m */; };
-		925F244A1F1513EE006C44A2 /* UIButton+RuntimeLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23D81F1513EE006C44A2 /* UIButton+RuntimeLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F244B1F1513EE006C44A2 /* UIButton+RuntimeLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23D91F1513EE006C44A2 /* UIButton+RuntimeLocalization.m */; };
-		925F244C1F1513EE006C44A2 /* UILabel+RuntimeLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23DA1F1513EE006C44A2 /* UILabel+RuntimeLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F244D1F1513EE006C44A2 /* UILabel+RuntimeLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23DB1F1513EE006C44A2 /* UILabel+RuntimeLocalization.m */; };
-		925F244E1F1513EE006C44A2 /* UISearchBar+RuntimeLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23DC1F1513EE006C44A2 /* UISearchBar+RuntimeLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F244F1F1513EE006C44A2 /* UISearchBar+RuntimeLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23DD1F1513EE006C44A2 /* UISearchBar+RuntimeLocalization.m */; };
-		925F24501F1513EE006C44A2 /* UISegmentedControl+RuntimeLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23DE1F1513EE006C44A2 /* UISegmentedControl+RuntimeLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24511F1513EE006C44A2 /* UISegmentedControl+RuntimeLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23DF1F1513EE006C44A2 /* UISegmentedControl+RuntimeLocalization.m */; };
-		925F24521F1513EE006C44A2 /* UITextField+RuntimeLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23E01F1513EE006C44A2 /* UITextField+RuntimeLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24531F1513EE006C44A2 /* UITextField+RuntimeLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23E11F1513EE006C44A2 /* UITextField+RuntimeLocalization.m */; };
 		925F24571F1513EE006C44A2 /* NSObject+XGBlockExecution.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23E71F1513EE006C44A2 /* NSObject+XGBlockExecution.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24581F1513EE006C44A2 /* NSObject+XGBlockExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23E81F1513EE006C44A2 /* NSObject+XGBlockExecution.m */; };
 		925F24591F1513EE006C44A2 /* NSObject+XGCasting.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23E91F1513EE006C44A2 /* NSObject+XGCasting.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,12 +66,6 @@
 		925F245E1F1513EE006C44A2 /* NSObject+XGDispatchOnceOnMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23EE1F1513EE006C44A2 /* NSObject+XGDispatchOnceOnMainThread.m */; };
 		925F245F1F1513EE006C44A2 /* NSObject+XGPropertyHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23EF1F1513EE006C44A2 /* NSObject+XGPropertyHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24601F1513EE006C44A2 /* NSObject+XGPropertyHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23F01F1513EE006C44A2 /* NSObject+XGPropertyHash.m */; };
-		925F24611F1513EE006C44A2 /* NSString+XGBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23F21F1513EE006C44A2 /* NSString+XGBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24621F1513EE006C44A2 /* NSString+XGBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23F31F1513EE006C44A2 /* NSString+XGBase64.m */; };
-		925F24631F1513EE006C44A2 /* NSString+XGMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23F41F1513EE006C44A2 /* NSString+XGMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24641F1513EE006C44A2 /* NSString+XGMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23F51F1513EE006C44A2 /* NSString+XGMD5.m */; };
-		925F24651F1513EE006C44A2 /* NSString+XGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23F61F1513EE006C44A2 /* NSString+XGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24661F1513EE006C44A2 /* NSString+XGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23F71F1513EE006C44A2 /* NSString+XGUtils.m */; };
 		925F24671F1513EE006C44A2 /* TemplateSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23F81F1513EE006C44A2 /* TemplateSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24681F1513EE006C44A2 /* UINavigationController+XGCompletionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23FA1F1513EE006C44A2 /* UINavigationController+XGCompletionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24691F1513EE006C44A2 /* UINavigationController+XGCompletionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23FB1F1513EE006C44A2 /* UINavigationController+XGCompletionHandler.m */; };
@@ -465,11 +444,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				925F245B1F1513EE006C44A2 /* NSObject+XGDictionaryWithProperties.h in Headers */,
-				925F24611F1513EE006C44A2 /* NSString+XGBase64.h in Headers */,
 				925F24181F1513EE006C44A2 /* EFLToast.h in Headers */,
 				925F24331F1513EE006C44A2 /* UIView+XGUtils.h in Headers */,
 				925F245D1F1513EE006C44A2 /* NSObject+XGDispatchOnceOnMainThread.h in Headers */,
-				925F24651F1513EE006C44A2 /* NSString+XGUtils.h in Headers */,
 				925F246A1F1513EE006C44A2 /* UINavigationItem+XGRightItemsPosition.h in Headers */,
 				925F24271F1513EE006C44A2 /* NSBundle+XGUtils.h in Headers */,
 				925F242F1F1513EE006C44A2 /* NSNotificationCenter+PostToMainThread.h in Headers */,
@@ -486,35 +463,27 @@
 				925F245F1F1513EE006C44A2 /* NSObject+XGPropertyHash.h in Headers */,
 				925F24231F1513EE006C44A2 /* EFLStringHelper.h in Headers */,
 				925F24211F1513EE006C44A2 /* XGInsetLabel.h in Headers */,
-				925F242D1F1513EE006C44A2 /* NSDictionary+EFLUtils.h in Headers */,
 				925F24701F1513EE006C44A2 /* UIView+XGNibLoading.h in Headers */,
 				925F24441F1513EE006C44A2 /* XGRuntimeHelper.h in Headers */,
 				925F243C1F1513EE006C44A2 /* UINavigationController+XGOrientationFix.h in Headers */,
 				925F24421F1513EE006C44A2 /* UIViewController+XGTracking.h in Headers */,
 				925F24381F1513EE006C44A2 /* UIImage+ImageEffects.h in Headers */,
-				925F244A1F1513EE006C44A2 /* UIButton+RuntimeLocalization.h in Headers */,
 				925F241B1F1513EE006C44A2 /* XGRotatingImageActivityIndicatorView.h in Headers */,
 				925F241A1F1513EE006C44A2 /* XGActivityIndicatorAnimationProtocol.h in Headers */,
 				925F241D1F1513EE006C44A2 /* XGRotatingImageAnimation.h in Headers */,
-				925F244E1F1513EE006C44A2 /* UISearchBar+RuntimeLocalization.h in Headers */,
-				925F24521F1513EE006C44A2 /* UITextField+RuntimeLocalization.h in Headers */,
 				925F24461F1513EE006C44A2 /* CHCSVParser.h in Headers */,
 				925F24401F1513EE006C44A2 /* UIViewController+XGAfterViewDidLoad.h in Headers */,
 				925F24351F1513EE006C44A2 /* XGRunOnMainThread.h in Headers */,
 				925F24681F1513EE006C44A2 /* UINavigationController+XGCompletionHandler.h in Headers */,
 				925F24361F1513EE006C44A2 /* NSLayoutConstraint+Utils.h in Headers */,
-				925F24501F1513EE006C44A2 /* UISegmentedControl+RuntimeLocalization.h in Headers */,
 				925F246E1F1513EE006C44A2 /* UIStackView+XGUtils.h in Headers */,
 				925F243E1F1513EE006C44A2 /* UINavigationController+XGTracking.h in Headers */,
-				925F244C1F1513EE006C44A2 /* UILabel+RuntimeLocalization.h in Headers */,
 				925F24291F1513EE006C44A2 /* NSDate+Utilities.h in Headers */,
 				925F247C1F1513EE006C44A2 /* XGEssentials.pch in Headers */,
-				925F24481F1513EE006C44A2 /* Localizator.h in Headers */,
 				925F24671F1513EE006C44A2 /* TemplateSingleton.h in Headers */,
 				925F24741F1513EE006C44A2 /* UIView+XGRoundedCorners.h in Headers */,
 				925F24161F1513EE006C44A2 /* NSMutableArray+XGUtils.h in Headers */,
 				925F247B1F1513EE006C44A2 /* XGEssentials.h in Headers */,
-				925F24631F1513EE006C44A2 /* NSString+XGMD5.h in Headers */,
 				925F24781F1513EE006C44A2 /* XGEssentialsDefines.h in Headers */,
 				925F242B1F1513EE006C44A2 /* NSDate+XGBetween.h in Headers */,
 			);
@@ -592,7 +561,6 @@
 				925F245A1F1513EE006C44A2 /* NSObject+XGCasting.m in Sources */,
 				925F241E1F1513EE006C44A2 /* XGRotatingImageAnimation.m in Sources */,
 				925F24581F1513EE006C44A2 /* NSObject+XGBlockExecution.m in Sources */,
-				925F24661F1513EE006C44A2 /* NSString+XGUtils.m in Sources */,
 				925F24201F1513EE006C44A2 /* XGFittingTextLabel.m in Sources */,
 				925F24221F1513EE006C44A2 /* XGInsetLabel.m in Sources */,
 				925F242A1F1513EE006C44A2 /* NSDate+Utilities.m in Sources */,
@@ -604,7 +572,6 @@
 				925F24601F1513EE006C44A2 /* NSObject+XGPropertyHash.m in Sources */,
 				925F24151F1513EE006C44A2 /* NSArray+XGUtils.m in Sources */,
 				925F24431F1513EE006C44A2 /* UIViewController+XGTracking.m in Sources */,
-				925F24491F1513EE006C44A2 /* Localizator.m in Sources */,
 				925F246D1F1513EE006C44A2 /* UIStackView+Utils.m in Sources */,
 				925F24341F1513EE006C44A2 /* UIView+XGUtils.m in Sources */,
 				925F242C1F1513EE006C44A2 /* NSDate+XGBetween.m in Sources */,
@@ -613,29 +580,20 @@
 				925F24171F1513EE006C44A2 /* NSMutableArray+XGUtils.m in Sources */,
 				925F24371F1513EE006C44A2 /* NSLayoutConstraint+Utils.m in Sources */,
 				925F24411F1513EE006C44A2 /* UIViewController+XGAfterViewDidLoad.m in Sources */,
-				925F24621F1513EE006C44A2 /* NSString+XGBase64.m in Sources */,
-				925F244D1F1513EE006C44A2 /* UILabel+RuntimeLocalization.m in Sources */,
 				925F24321F1513EE006C44A2 /* UIView+XGConstraints.m in Sources */,
 				925F241C1F1513EE006C44A2 /* XGRotatingImageActivityIndicatorView.m in Sources */,
-				925F24531F1513EE006C44A2 /* UITextField+RuntimeLocalization.m in Sources */,
 				925F245E1F1513EE006C44A2 /* NSObject+XGDispatchOnceOnMainThread.m in Sources */,
 				925F245C1F1513EE006C44A2 /* NSObject+XGDictionaryWithProperties.m in Sources */,
 				925F24281F1513EE006C44A2 /* NSBundle+XGUtils.m in Sources */,
-				925F242E1F1513EE006C44A2 /* NSDictionary+EFLUtils.m in Sources */,
 				925F243B1F1513EE006C44A2 /* UIImage+XGUtils.m in Sources */,
-				925F24471F1513EE006C44A2 /* CHCSVParser.m in Sources */,
 				925F24301F1513EE006C44A2 /* NSNotificationCenter+PostToMainThread.m in Sources */,
 				925F243F1F1513EE006C44A2 /* UINavigationController+XGTracking.m in Sources */,
-				925F244F1F1513EE006C44A2 /* UISearchBar+RuntimeLocalization.m in Sources */,
 				925F246B1F1513EE006C44A2 /* UINavigationItem+XGRightItemsPosition.m in Sources */,
 				925F24731F1513EE006C44A2 /* UIView+XGRotate.m in Sources */,
 				925F243D1F1513EE006C44A2 /* UINavigationController+XGOrientationFix.m in Sources */,
 				925F24191F1513EE006C44A2 /* EFLToast.m in Sources */,
-				925F24641F1513EE006C44A2 /* NSString+XGMD5.m in Sources */,
 				925F24751F1513EE006C44A2 /* UIView+XGRoundedCorners.m in Sources */,
 				925F246F1F1513EE006C44A2 /* UIStackView+XGUtils.m in Sources */,
-				925F244B1F1513EE006C44A2 /* UIButton+RuntimeLocalization.m in Sources */,
-				925F24511F1513EE006C44A2 /* UISegmentedControl+RuntimeLocalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

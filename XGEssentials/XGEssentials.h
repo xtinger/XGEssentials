@@ -21,14 +21,11 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 #import <XGEssentials/NSMutableArray+XGUtils.h>
 #import <XGEssentials/NSObject+XGCasting.h>
 #import <XGEssentials/NSObject+XGPropertyHash.h>
-#import <XGEssentials/NSString+XGMD5.h>
 #import <XGEssentials/NSObject+XGDispatchOnceOnMainThread.h>
 #import <XGEssentials/NSDate+XGBetween.h>
 #import <XGEssentials/UIImage+XGUtils.h>
 #import <XGEssentials/UIImage+ImageEffects.h>
 #import <XGEssentials/TemplateSingleton.h>
-#import <XGEssentials/NSString+XGBase64.h>
-#import <XGEssentials/NSString+XGUtils.h>
 #import <XGEssentials/NSArray+XGEnum.h>
 #import <XGEssentials/NSNotificationCenter+PostToMainThread.h>
 #import <XGEssentials/UIView+XGConstraints.h>
@@ -40,7 +37,6 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 #import <XGEssentials/UINavigationController+XGCompletionHandler.h>
 #import <XGEssentials/UINavigationItem+XGRightItemsPosition.h>
 #import <XGEssentials/UIView+XGRotate.h>
-#import <XGEssentials/UIView+XGUtils.h>
 #import <XGEssentials/UIViewController+XGDismiss.h>
 #import <XGEssentials/UIStackView+XGUtils.h>
 #import <XGEssentials/XGFittingTextLabel.h>
@@ -59,15 +55,7 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 #import <XGEssentials/XGInsetLabel.h>
 #import <XGEssentials/XGRunOnMainThread.h>
 #import <XGEssentials/XGRuntimeHelper.h>
-#import <XGEssentials/NSDictionary+EFLUtils.h>
 //
 #import <XGEssentials/XGActivityIndicatorAnimationProtocol.h>
 #import <XGEssentials/XGRotatingImageActivityIndicatorView.h>
 #import <XGEssentials/XGRotatingImageAnimation.h>
-//Localization
-#import <XGEssentials/Localizator.h>
-#import <XGEssentials/UIButton+RuntimeLocalization.h>
-#import <XGEssentials/UILabel+RuntimeLocalization.h>
-#import <XGEssentials/UISearchBar+RuntimeLocalization.h>
-#import <XGEssentials/UISegmentedControl+RuntimeLocalization.h>
-#import <XGEssentials/UITextField+RuntimeLocalization.h>

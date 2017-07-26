@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+@import XGCommon;
 
 @interface EFLStringHelper : NSObject
 
