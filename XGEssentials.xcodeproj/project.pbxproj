@@ -164,12 +164,6 @@
 		925F23EE1F1513EE006C44A2 /* NSObject+XGDispatchOnceOnMainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XGDispatchOnceOnMainThread.m"; sourceTree = "<group>"; };
 		925F23EF1F1513EE006C44A2 /* NSObject+XGPropertyHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XGPropertyHash.h"; sourceTree = "<group>"; };
 		925F23F01F1513EE006C44A2 /* NSObject+XGPropertyHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XGPropertyHash.m"; sourceTree = "<group>"; };
-		925F23F21F1513EE006C44A2 /* NSString+XGBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XGBase64.h"; sourceTree = "<group>"; };
-		925F23F31F1513EE006C44A2 /* NSString+XGBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XGBase64.m"; sourceTree = "<group>"; };
-		925F23F41F1513EE006C44A2 /* NSString+XGMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XGMD5.h"; sourceTree = "<group>"; };
-		925F23F51F1513EE006C44A2 /* NSString+XGMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XGMD5.m"; sourceTree = "<group>"; };
-		925F23F61F1513EE006C44A2 /* NSString+XGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XGUtils.h"; sourceTree = "<group>"; };
-		925F23F71F1513EE006C44A2 /* NSString+XGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XGUtils.m"; sourceTree = "<group>"; };
 		925F23F81F1513EE006C44A2 /* TemplateSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateSingleton.h; sourceTree = "<group>"; };
 		925F23FA1F1513EE006C44A2 /* UINavigationController+XGCompletionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XGCompletionHandler.h"; sourceTree = "<group>"; };
 		925F23FB1F1513EE006C44A2 /* UINavigationController+XGCompletionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XGCompletionHandler.m"; sourceTree = "<group>"; };
@@ -228,7 +222,6 @@
 				925F23C71F1513EE006C44A2 /* Hacks */,
 				925F23D21F1513EE006C44A2 /* Localization */,
 				925F23E61F1513EE006C44A2 /* Objects */,
-				925F23F11F1513EE006C44A2 /* Strings */,
 				925F23F81F1513EE006C44A2 /* TemplateSingleton.h */,
 				925F23F91F1513EE006C44A2 /* UI */,
 				925F240A1F1513EE006C44A2 /* XGEssentialsDefines.h */,
@@ -373,19 +366,6 @@
 				925F23F01F1513EE006C44A2 /* NSObject+XGPropertyHash.m */,
 			);
 			path = Objects;
-			sourceTree = "<group>";
-		};
-		925F23F11F1513EE006C44A2 /* Strings */ = {
-			isa = PBXGroup;
-			children = (
-				925F23F21F1513EE006C44A2 /* NSString+XGBase64.h */,
-				925F23F31F1513EE006C44A2 /* NSString+XGBase64.m */,
-				925F23F41F1513EE006C44A2 /* NSString+XGMD5.h */,
-				925F23F51F1513EE006C44A2 /* NSString+XGMD5.m */,
-				925F23F61F1513EE006C44A2 /* NSString+XGUtils.h */,
-				925F23F71F1513EE006C44A2 /* NSString+XGUtils.m */,
-			);
-			path = Strings;
 			sourceTree = "<group>";
 		};
 		925F23F91F1513EE006C44A2 /* UI */ = {
