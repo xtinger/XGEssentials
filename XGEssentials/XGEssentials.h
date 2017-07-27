@@ -17,11 +17,6 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <XGEssentials/PublicHeader.h>
 
 #import <XGEssentials/XGEssentialsDefines.h>//:configuration = Debug
-#import <XGEssentials/NSArray+XGUtils.h>
-#import <XGEssentials/NSMutableArray+XGUtils.h>
-#import <XGEssentials/NSObject+XGCasting.h>
-#import <XGEssentials/NSObject+XGPropertyHash.h>
-#import <XGEssentials/NSObject+XGDispatchOnceOnMainThread.h>
 #import <XGEssentials/NSDate+XGBetween.h>
 #import <XGEssentials/UIImage+XGUtils.h>
 #import <XGEssentials/UIImage+ImageEffects.h>
@@ -46,9 +41,7 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 #import <XGEssentials/XGFittingTextLabel.h>
 #import <XGEssentials/UIViewController+XGAfterViewDidLoad.h>
 #import <XGEssentials/UIView+XGConstraints.h>
-#import <XGEssentials/NSObject+XGBlockExecution.h>
 #import <XGEssentials/EFLToast.h>
-#import <XGEssentials/NSObject+XGDictionaryWithProperties.h>
 #import <XGEssentials/UINavigationController+XGOrientationFix.h>
 #import <XGEssentials/UINavigationController+XGTracking.h>
 #import <XGEssentials/UIViewController+XGTracking.h>
