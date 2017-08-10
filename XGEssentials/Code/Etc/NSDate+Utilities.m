@@ -163,15 +163,6 @@ static const unsigned componentFlags = (NSCalendarUnitYear| NSCalendarUnitMonth 
 
 #pragma mark - Comparing Dates
 
-- (BOOL) isEqualToDateIgnoringTime: (NSDate *) aDate
-{
-	NSDateComponents *components1 = [[NSDate currentCalendar] components:componentFlags fromDate:self];
-	NSDateComponents *components2 = [[NSDate currentCalendar] components:componentFlags fromDate:aDate];
-	return ((components1.year == components2.year) &&
-			(components1.month == components2.month) && 
-			(components1.day == components2.day));
-}
-
 - (BOOL) isEqualOrAfter: (NSDate*) startDate isEqualOrBefore: (NSDate*) endDate {
     if (([self isEarlierThanDate:endDate] && [self isLaterThanDate:startDate]) || [self isToday] || [self isSameDayAsDate:endDate]) {
         return YES;
@@ -181,17 +172,17 @@ static const unsigned componentFlags = (NSCalendarUnitYear| NSCalendarUnitMonth 
 
 - (BOOL) isToday
 {
-	return [self isEqualToDateIgnoringTime:[NSDate date]];
+	return [self isSameDayAsDate:[NSDate date]];
 }
 
 - (BOOL) isTomorrow
 {
-	return [self isEqualToDateIgnoringTime:[NSDate dateTomorrow]];
+	return [self isSameDayAsDate:[NSDate dateTomorrow]];
 }
 
 - (BOOL) isYesterday
 {
-	return [self isEqualToDateIgnoringTime:[NSDate dateYesterday]];
+	return [self isSameDayAsDate:[NSDate dateYesterday]];
 }
 
 - (BOOL) isMoreOneYearAgo

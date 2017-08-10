@@ -38,9 +38,6 @@
 @property (nonatomic, readonly) NSString *longDateString;
 @property (nonatomic, readonly) NSString *longTimeString;
 
-// Comparing dates
-- (BOOL) isEqualToDateIgnoringTime: (NSDate *) aDate;
-
 @property (NS_NONATOMIC_IOSONLY, getter=isToday, readonly) BOOL today;
 @property (NS_NONATOMIC_IOSONLY, getter=isTomorrow, readonly) BOOL tomorrow;
 @property (NS_NONATOMIC_IOSONLY, getter=isYesterday, readonly) BOOL yesterday;
