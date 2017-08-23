@@ -12,8 +12,6 @@
 		925F241C1F1513EE006C44A2 /* XGRotatingImageActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23A51F1513EE006C44A2 /* XGRotatingImageActivityIndicatorView.m */; };
 		925F241D1F1513EE006C44A2 /* XGRotatingImageAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23A61F1513EE006C44A2 /* XGRotatingImageAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F241E1F1513EE006C44A2 /* XGRotatingImageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23A71F1513EE006C44A2 /* XGRotatingImageAnimation.m */; };
-		925F24231F1513EE006C44A2 /* EFLStringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23AD1F1513EE006C44A2 /* EFLStringHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925F24241F1513EE006C44A2 /* EFLStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23AE1F1513EE006C44A2 /* EFLStringHelper.m */; };
 		925F24251F1513EE006C44A2 /* NSArray+XGEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23AF1F1513EE006C44A2 /* NSArray+XGEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F24261F1513EE006C44A2 /* NSArray+XGEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F23B01F1513EE006C44A2 /* NSArray+XGEnum.m */; };
 		925F24271F1513EE006C44A2 /* NSBundle+XGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F23B11F1513EE006C44A2 /* NSBundle+XGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,8 +54,6 @@
 		925F23A51F1513EE006C44A2 /* XGRotatingImageActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGRotatingImageActivityIndicatorView.m; sourceTree = "<group>"; };
 		925F23A61F1513EE006C44A2 /* XGRotatingImageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGRotatingImageAnimation.h; sourceTree = "<group>"; };
 		925F23A71F1513EE006C44A2 /* XGRotatingImageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGRotatingImageAnimation.m; sourceTree = "<group>"; };
-		925F23AD1F1513EE006C44A2 /* EFLStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFLStringHelper.h; sourceTree = "<group>"; };
-		925F23AE1F1513EE006C44A2 /* EFLStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFLStringHelper.m; sourceTree = "<group>"; };
 		925F23AF1F1513EE006C44A2 /* NSArray+XGEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XGEnum.h"; sourceTree = "<group>"; };
 		925F23B01F1513EE006C44A2 /* NSArray+XGEnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XGEnum.m"; sourceTree = "<group>"; };
 		925F23B11F1513EE006C44A2 /* NSBundle+XGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+XGUtils.h"; sourceTree = "<group>"; };
@@ -155,8 +151,6 @@
 		925F23AC1F1513EE006C44A2 /* Etc */ = {
 			isa = PBXGroup;
 			children = (
-				925F23AD1F1513EE006C44A2 /* EFLStringHelper.h */,
-				925F23AE1F1513EE006C44A2 /* EFLStringHelper.m */,
 				925F23AF1F1513EE006C44A2 /* NSArray+XGEnum.h */,
 				925F23B01F1513EE006C44A2 /* NSArray+XGEnum.m */,
 				925F23B11F1513EE006C44A2 /* NSBundle+XGUtils.h */,
@@ -241,7 +235,6 @@
 				925F24251F1513EE006C44A2 /* NSArray+XGEnum.h in Headers */,
 				925F243A1F1513EE006C44A2 /* UIImage+XGUtils.h in Headers */,
 				925F24311F1513EE006C44A2 /* UIView+XGConstraints.h in Headers */,
-				925F24231F1513EE006C44A2 /* EFLStringHelper.h in Headers */,
 				925F24441F1513EE006C44A2 /* XGRuntimeHelper.h in Headers */,
 				925F243C1F1513EE006C44A2 /* UINavigationController+XGOrientationFix.h in Headers */,
 				925F24421F1513EE006C44A2 /* UIViewController+XGTracking.h in Headers */,
@@ -335,7 +328,6 @@
 				925F242A1F1513EE006C44A2 /* NSDate+Utilities.m in Sources */,
 				925F24451F1513EE006C44A2 /* XGRuntimeHelper.m in Sources */,
 				925F24391F1513EE006C44A2 /* UIImage+ImageEffects.m in Sources */,
-				925F24241F1513EE006C44A2 /* EFLStringHelper.m in Sources */,
 				925F24261F1513EE006C44A2 /* NSArray+XGEnum.m in Sources */,
 				925F24431F1513EE006C44A2 /* UIViewController+XGTracking.m in Sources */,
 				925F242C1F1513EE006C44A2 /* NSDate+XGBetween.m in Sources */,
