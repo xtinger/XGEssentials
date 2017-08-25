@@ -20,7 +20,6 @@ FOUNDATION_EXPORT const unsigned char XGEssentialsVersionString[];
 #import <XGEssentials/NSDate+XGBetween.h>
 #import <XGEssentials/UIImage+XGUtils.h>
 #import <XGEssentials/UIImage+ImageEffects.h>
-#import <XGEssentials/TemplateSingleton.h>
 #import <XGEssentials/NSArray+XGEnum.h>
 #import <XGEssentials/NSNotificationCenter+PostToMainThread.h>
 #import <XGEssentials/UIView+XGConstraints.h>
