@@ -9,6 +9,11 @@
 #import "UINavigationController+XGTracking.h"
 #import "XGRuntimeHelper.h"
 
+#if TARGET_IPHONE_SIMULATOR
+// logs all opening view controllers
+#define CONTROLLER_TRACKING_ENABLED // crashes
+#endif
+
 @implementation UINavigationController (XGTracking)
 
 + (void)load {
@@ -25,12 +30,12 @@
 
 - (void)swizzled_popViewControllerAnimated:(BOOL)animated {
     [self swizzled_popViewControllerAnimated:animated];
-//    NSLog(@"POP << NAV_CONTROLLER(%ld)", (long)(self.viewControllers ? self.viewControllers.count : 0));
+    NSLog(@"POP << NAV_CONTROLLER(%@) TOP: %@", @(self.viewControllers ? self.viewControllers.count : 0), self.topViewController);
 }
 
 - (void)swizzled_pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     [self swizzled_pushViewController:viewController animated:animated];
-//    NSLog(@"PUSH >> NAV_CONTROLLER(%ld) : %@", (long)self.viewControllers.count, viewController);
+    NSLog(@"PUSH >> NAV_CONTROLLER(%@) : %@", @(self.viewControllers.count), viewController);
 }
 
 
