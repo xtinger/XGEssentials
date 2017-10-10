@@ -11,7 +11,7 @@
 
 #if TARGET_IPHONE_SIMULATOR
 // logs all opening view controllers
-#define CONTROLLER_TRACKING_ENABLED // crashes
+//#define CONTROLLER_TRACKING_ENABLED // crashes
 #endif
 
 @implementation UINavigationController (XGTracking)
