@@ -44,7 +44,6 @@
 		925F24781F1513EE006C44A2 /* XGEssentialsDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F240A1F1513EE006C44A2 /* XGEssentialsDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F247B1F1513EE006C44A2 /* XGEssentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 925F240D1F1513EE006C44A2 /* XGEssentials.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925F247C1F1513EE006C44A2 /* XGEssentials.pch in Headers */ = {isa = PBXBuildFile; fileRef = 925F240E1F1513EE006C44A2 /* XGEssentials.pch */; settings = {ATTRIBUTES = (Public, ); }; };
-		928556CA1F164C66005F7614 /* XGCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928556C91F164C66005F7614 /* XGCommon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,7 +85,6 @@
 		925F240C1F1513EE006C44A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		925F240D1F1513EE006C44A2 /* XGEssentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGEssentials.h; sourceTree = "<group>"; };
 		925F240E1F1513EE006C44A2 /* XGEssentials.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGEssentials.pch; sourceTree = "<group>"; };
-		928556C91F164C66005F7614 /* XGCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XGCommon.framework; path = "../XGCommon/build/Debug-iphoneos/XGCommon.framework"; sourceTree = "<group>"; };
 		92C7BBB01EF952D5002EE369 /* XGEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XGEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,7 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				928556CA1F164C66005F7614 /* XGCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +195,6 @@
 		928556C81F164C65005F7614 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				928556C91F164C66005F7614 /* XGCommon.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
